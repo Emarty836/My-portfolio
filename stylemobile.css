@@ -1,0 +1,366 @@
+@media only screen and (max-width: 680px) {
+    
+body{
+    padding:0;
+    margin:0;
+    background:rgb(11, 12, 94);
+  }
+  
+  .wrapper{
+    display:grid;
+    /*grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:4fr 1fr 3fr 200px;*/
+    grid-template-columns:25vw 25vw 25vw 25vw;
+    grid-template-rows:60vh 1fr 3fr 3fr 3fr 3fr 30vh;
+    grid-row-gap:0;
+    width:90vw;
+    height:22vw;
+  }
+  
+  li{
+    list-style-type:none;
+    padding:5px;
+  }
+  
+  a{
+    text-decoration:none;
+    color:black;
+  }
+  
+  
+  #gridone{
+    background: url("images/darkdesk.jpg");
+    background-size:cover;
+    opacity:1;
+    grid-column:1/5;
+    width:100%;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    vertical-align:middle;
+    padding:0;
+    margin:0;
+    
+  }
+  
+  
+  
+  
+  
+  #gridone p{
+    color:white;
+    font-size:20px;
+  }
+  
+  #text{
+    position:relative;
+    top:9vh;
+  }
+
+  #text > h1{
+      font-size:10vw;
+      color:white;
+      text-shadow: .5vw .5vw #000000;
+  }
+
+  #text > p{
+      font-size:3vw;
+      width:90%;
+      text-shadow: .3vw .3vw #000000;
+  }
+  
+  
+  #portfolio{
+    text-align:center;
+    background:white;
+    margin:0;
+    height:20vw;
+    padding:50px;
+    position:relative;
+    top:-10vh;
+    
+    font-size:10vw;
+  }
+  
+  
+  
+  #blue, #green, #purple, #orange{
+    font-family:sans-serif;
+    margin:0;
+    width:80vw;
+    height:100vw;
+    margin-left:-13vw;
+    margin-bottom:5vw;
+  }
+  
+  #blue p, #green p, #purple p, #orange p{
+    padding-left:20px;
+    font-size:1.8vw;
+  }
+  
+  #title{
+    grid-column:1/5;
+    text-align:center;
+    align-self:center;
+    text-transform:uppercase;
+    font-size:5vw;
+  }
+  
+  span{
+    border-radius:5px;
+    width:15vw;
+    height:6vw;
+    padding:1vw;
+      margin:1vw;
+    border:black 1px solid;
+    font-weight: bolder;
+    font-size:3.1vw;
+  }
+
+  .languages{
+      position:absolute;
+      top:82vw;
+  }
+
+  
+  
+  .gitrepo{
+    background:grey;
+    width:30vw;
+    
+  }
+  
+  #gitone{
+    position:absolute;
+    left:0;
+    top:90vw;
+    
+  }
+  
+  #gittwo{
+    position:absolute;
+    left:0;
+    top:90vw;
+  }
+  
+  #blue{
+  
+    grid-gap:5px;
+    border: solid 2px black;
+    grid-row:3/4;
+    position:relative;
+    grid-column:2/4;
+    
+  }
+  
+  h4{font-size:3vw;}
+  
+  
+  .top{
+    width:100%;
+    height:60%;
+    margin:0;
+    padding:0;
+  }
+  
+  img{
+    width:100%;
+    height:100%;
+  }
+  
+  
+  
+  .bottom{
+    height:39.5%;
+    top:0;
+    background:white;
+    border-top:black solid 2px;
+  }
+  
+  
+  #green{
+  
+    border: solid 2px black;
+    grid-row:4/5;
+    grid-column:2/4;
+    position:relative;
+    
+  }
+  
+  #purple{
+  
+    border: solid 2px black;
+    grid-row:5/6;
+    grid-column:2/4;
+    position:relative;
+    
+  }
+  
+  #orange{
+  
+    border: solid 2px black;
+    grid-row:6/7;
+    grid-column:2/4;
+    position:relative;
+    
+  }
+  
+  
+  #footer{
+    /*background:#766b6b;*/
+    background:url('images/keyboard.jpg');
+    background-size:cover;
+    grid-row:7/8;
+    grid-column:1/5;
+    margin-top:60px;
+    text-align:center;
+  }
+  
+  #footer h3{
+    color:white;
+  }
+  
+  .tab{
+    background:#c6c6c6;
+    grid-row:1/2;
+    grid-column:1/2;
+    z-index:2;
+    position:fixed;
+    height:100%;
+    width:180px;
+    border-right:solid 2px black;
+  }
+  
+  #arrow{
+    width:30px;
+    height:100px;
+    background:#b6b6b6;
+    position:absolute;
+    top:40%;
+    left:100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:black 2px solid;
+    border-left-color: black;
+  }
+  
+  .line{
+    position:absolute;
+    height:80px;
+    width:4px;
+    background:black;
+    display:flex;
+    justify-content:space-between;
+    top:10px;
+  }
+  
+  #line1{
+    left:5px;
+  }
+  
+  #line2{
+    left:13px
+  }
+  
+  #line3{
+    left:21px;
+  }
+  
+  .tab h2{
+    text-align:center;
+    margin:5px;
+    padding:10px
+  }
+  
+  .tab a:hover{
+    color:white;
+  }
+  
+  #tab-body{
+    text-align:center;
+  }
+  
+  .tab button{
+    margin:5px;
+    width:60px;
+    height:60px;
+  }
+  
+  .hide{
+    left:-180px;
+    border:none;
+  }
+  
+  .footerImages{
+    display:flex;
+    width:160px;
+    height:50px;
+    display:flex;
+    justify-content:space-between;
+    margin:auto;
+  }
+  
+  #one{
+    width:50px;
+    height:50px;
+  }
+  
+  #one:hover{
+    border:black 2px solid;
+  }
+  
+  #two{
+    width:50px;
+    height:50px;
+  }
+  
+  #two:hover{
+    border:white 2px solid;
+  }
+  
+  .footerImages #one, #two{
+    width:55px;
+    height: 55px;
+  }
+  
+  #icon{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    align-items:center;
+  
+  }
+
+  
+
+  
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    #text{
+        top:11vh;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+
+    #text{
+        top:13vh;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+
+    #text{
+        top:15vh;
+    }
+  }
+
+  @media only screen and (max-width: 200px) {
+
+    #text{
+        top:17vh;
+    }
+  }
+  
