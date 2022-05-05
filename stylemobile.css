@@ -29,7 +29,7 @@ body{
   
   
   #gridone{
-    background: url("images/darkdesk.jpg");
+    background: url("darkdesk.jpg");
     background-size:cover;
     opacity:1;
     grid-column:1/5;
@@ -208,7 +208,7 @@ body{
   
   #footer{
     /*background:#766b6b;*/
-    background:url('images/keyboard.jpg');
+    background:url('keyboard.jpg');
     background-size:cover;
     grid-row:7/8;
     grid-column:1/5;
