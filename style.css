@@ -8,7 +8,7 @@
 body{
   padding:0;
   margin:0;
-  background:rgb(11, 12, 94);
+  background:rgb(35, 36, 82);
 }
 
 .wrapper{
@@ -34,7 +34,7 @@ a{
 
 
 #gridone{
-  background: url("darkdesk.jpg");
+  background: url("images/darkdesk.jpg");
   background-size:cover;
   opacity:1;
   grid-column:1/5;
@@ -163,7 +163,8 @@ img{
 #green{
 
   border: solid 2px black;
-  grid-row:4/5;
+  /*grid-row:4/5;*/
+  grid-row:6/7;
   grid-column:2/4;
   position:relative;
   width:900px;
@@ -181,16 +182,16 @@ img{
 #orange{
 
   border: solid 2px black;
-  grid-row:6/7;
+  /*grid-row:6/7;*/
+  grid-row:4/5;
   grid-column:2/4;
   position:relative;
   width:900px;
 }
 
-
 #footer{
   /*background:#766b6b;*/
-  background:url('keyboard.jpg');
+  background:url('images/keyboard.jpg');
   background-size:cover;
   grid-row:7/8;
   grid-column:1/5;
